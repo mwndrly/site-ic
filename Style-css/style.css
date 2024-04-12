@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(23, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h1, h2, p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif,rgb(166, 160, 160);
+}
+
+
+p, h2, h3{
+    text-align: center;
+    color: rgb(166, 160, 160);
+    font-size: 24px;
+}
+
+
+        /* Estilo básico para o menu */
+  
+           
+    
+         table {
+
+            width: 100%;
+            background-color: #1f1e1e;
+            text-align: center;
+            padding: 14px 16px;
+            color:rgb(166, 160, 160);
+        }
+
+
+
+
+
+        .equipe {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+          
+          .membro {
+            width: 30%;
+            margin: 20px 0;
+            text-align: center;
+            box-sizing: border-box; 
+          }
+          
+          .membro img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 10px;
+          }
+          
+          .membro h3 {
+            margin: 0;
+          }
+          
+          .links a {
+            display: block;
+            margin-top: 5px;
+          }
