@@ -1,0 +1,123 @@
+.bloco {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 70%;
+    background-color: #f2f2f2; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-bloco {
+    margin: 30px auto;
+    padding: 50px;
+    text-align: center;
+    width: 50%;
+    background-color: #f2f2f2; 
+    border-radius: 20px;
+}
+
+.question {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.verificacao p {
+    padding: 20px;
+    margin: 15px 5px;
+    font-size: 1.2rem;
+    color: #666; 
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer input {
+    display: none;
+}
+
+.answer label {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ccc; 
+    border-radius: 10px;
+    padding: 10px;
+    color: #333; 
+}
+
+.answer label:hover {
+    background-color: #ddd; 
+    box-shadow: 0px 5px 10px 3px rgba(138, 138, 138, 0.2);
+}
+
+.quiz-btn {
+    background-color: #333; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quiz-bloco {
+    padding: 70px;
+    text-align: center;
+}
+
+#restart {
+    background-color: #666;
+    display: block;
+    margin: 0 auto;
+}
+
+#restart:hover {
+    background-color: #444; 
+}
+
+.answer input[type="radio"]:checked + label {
+    background-color: #46dbaf; 
+}
+
+.quiz {
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: #0b98d0de; 
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    justify-content: center;
+}
+
+.quiz-btn:hover {
+    background-color: #0f0f0fde; 
+    color: white;
+}
