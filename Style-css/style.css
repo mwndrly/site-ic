@@ -1,9 +1,28 @@
-body{
-    background-color:rgb(23, 23, 23);
+body, html{
+    background-color:rgb(1, 17, 32);
     font-family: Arial, Helvetica, sans-serif;
-   
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
+
+header {
+  width: 100%;
+  background-color: rgb(1, 17, 32); /* Adicione uma cor de fundo para visualização */
+}
+
+.img-cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50%;
+  height: auto
+}
 
 p,h1, h2, h3{
     text-align: center;
@@ -12,49 +31,53 @@ p,h1, h2, h3{
 }
 
 
-        /* Estilo básico para o menu */
+/* Estilo básico para o menu */
   
            
     
-         table {
+table {
 
-            width: 100%;
-            background-color: #1f1e1e;
-            text-align: center;
-            padding: 14px 16px;
-            color:rgb(166, 160, 160);
-        }
+width: 100%;
+background-color: rgb(1, 17, 32);
+text-align: center;
+padding: 14px 16px;
+color:rgb(166, 160, 160);
+}
 
-
-
-
-
-        .equipe {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-          }
+.equipe {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
           
-          .membro {
-            width: 30%;
-            margin: 20px 0;
-            text-align: center;
-            box-sizing: border-box; 
-          }
+.membro {
+width: 30%;
+margin: 20px 0;
+text-align: center;
+box-sizing: border-box; 
+}
           
-          .membro img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            display: block;
-            margin: 0 auto 10px;
-          }
+.membro img {
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ display: block;
+ margin: 0 auto 10px;
+ }
           
-          .membro h3 {
-            margin: 0;
-          }
+ .membro h3 {
+  margin: 0;
+}
           
-          .links a {
-            display: block;
-            margin-top: 5px;
-          }
+.links a {
+ display: block;
+ margin-top: 5px;
+}
+
+.botaofixo{
+
+ position: sticky;
+            
+ top: 20px;
+}
+
